@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets - We love Pets</title>
+
+    <link rel="shortcut icon" type="image/ico" href="/public/favicon.ico" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+</head>
+
+<body>
+
+    <!-- header section  -->
+    <header id="header" class="custom_header">
+        <div class="top_header">
+            <div class="custom_container">
+                <div class="head_details">
+                    <p>+2 392 3929 210</p>
+                    <p>Mon - Sat 10:00 - 7:00</p>
+                </div>
+                <ul class="social_links_btn">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="custom_navigation ">
+            <div class="custom_container">
+                <div class="logo"><a href="/"><img src="images/paws.png" alt=""> Puppy</a></div>
+                <button class="nav_toggle" onclick="navToogle()"><i class="fas fa-bars"></i>MENU</button>
+                <ul class="custom_nav_menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- home section -->
+    <section id="home" class="home">
+        <div class="circleBg"></div>
+        <div class="custom_container">
+            <div class="home_content">
+                <h1>We Care<br><span>Your Pets</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque.</p>
+                <button class="custom_btn"><a href="">Contact Us</a> </button>
+            </div>
+            <div class="image">
+                <img src="images/home.png" alt="">
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- about us section -->
+    <section id="about" class="about">
+        <div class="custom_container">
+            <div class="about_image"><img src="images/about.png" alt=""></div>
+            <div class="about_content">
+                <img src="images/paws.png" alt="">
+                <h1>We care your pet As you care</h1>
+                <p>Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate
+                    human suffering through animal welfare when people might depend on livestock as their only source of
+                    income or food.</p>
+                <button class="custom_btn"><a href="">About Us</a> </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section id="services" class="services">
+        <div class="custom_container">
+            <div class="services_top_row">
+                <img src="images/paws.png" alt="">
+                <h1>Services for every pet</h1>
+                <p>Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate
+                    human suffering through animal welfare when people might depend.</p>
+            </div>
+            <div class="services_bottom_row">
+                <div class="service_card">
+                    <div class="images"><img src="images/services/img1.jpg" alt=""></div>
+                    <div class="services_content">
+                        <h2>Pet Care</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            incididunt adipiscing elit
+                        </p>
+                    </div>
+                </div>
+                <div class="service_card">
+                    <div class="images"><img src="images/services/img2.jpg" alt=""></div>
+                    <div class="services_content">
+                        <h2>Healthy Meals</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            incididunt adipiscing elit
+                        </p>
+                    </div>
+                </div>
+                <div class="service_card">
+                    <div class="images"><img src="images/services/img3.jpg" alt=""></div>
+                    <div class="services_content">
+                        <h2>Pet Spa</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            incididunt adipiscing elit
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- pricing section -->
+    <section id="pricing" class="pricing">
+        <div class="custom_container">
+            <h1>A Plan for Every Dog's Needs</h1>
+            <p>Simple and affordable price plans for your and your dog.</p>
+            <div class="pricing_container">
+                <div class="custom_pricing_card">
+                    <h2>PERSONAL</h2>
+                    <ul>
+                        <h3><sup>$</sup>49<sub>/mo</sub></h3>
+                        <li><i class="fas fa-check"></i> 5 Dog Walk</li>
+                        <li><i class="fas fa-check"></i> 3 Vet Visit</li>
+                        <li><i class="fas fa-check"></i> 3 Pet Spa</li>
+                        <li><i class="fas fa-check"></i> Free Supports</li>
+                    </ul>
+                    <button class="pricing_btn"><a href="#">GET STARTED</a></button>
+                </div>
+                <div class="custom_pricing_card">
+                    <h2>BUSINESS</h2>
+                    <ul>
+                        <h3><sup>$</sup>79<sub>/mo</sub></h3>
+                        <li><i class="fas fa-check"></i> 5 Dog Walk</li>
+                        <li><i class="fas fa-check"></i> 3 Vet Visit</li>
+                        <li><i class="fas fa-check"></i> 3 Pet Spa</li>
+                        <li><i class="fas fa-check"></i> Free Supports</li>
+                    </ul>
+                    <button class="pricing_btn"><a href="#">GET STARTED</a></button>
+                </div>
+                <div class="custom_pricing_card">
+                    <h2>ULTIMATE</h2>
+                    <ul>
+                        <h3><sup>$</sup>109<sub>/mo</sub></h3>
+                        <li><i class="fas fa-check"></i> 5 Dog Walk</li>
+                        <li><i class="fas fa-check"></i> 3 Vet Visit</li>
+                        <li><i class="fas fa-check"></i> 3 Pet Spa</li>
+                        <li><i class="fas fa-check"></i> Free Supports</li>
+                    </ul>
+                    <button class="pricing_btn"><a href="#">GET STARTED</a></button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- info section -->
+    <section class="info">
+        <div class="custom_container">
+            <div class="info_content">
+                <h1>We need your <span>help Adopt Us</span></h1>
+                <p>Lorem ipsum dolor sit , consectetur adipiscing elit, sed do iusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Quis ipsum suspendisse ultrices.</p>
+                <button class="custom_btn"><a href="">Contact Us</a> </button>
+            </div>
+            <div class="info_card_custom_container">
+                <div class="info_card_col">
+                    <div class="info_card">
+                        <img src="images/icon1.png" alt="">
+                        <h2 data-petNumbers="80">80</h2>
+                        <p>Pets Hosted</p>
+                    </div>
+                </div>
+                <div class="info_card_col">
+
+                    <div class="info_card">
+                        <i class="fas fa-user-tie"></i>
+                        <h2 data-clientNumbers="75">75+</h2>
+                        <p>Customers</p>
+                    </div>
+                    <div class="info_card">
+                        <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512"
+                            width="60" class="customerIcon" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="customer-icon-gradient" x2="0.35" y2="1">
+                                    <stop offset="0%" stop-color="#e24c26" />
+                                    <stop offset="30%" stop-color="#e24c26" />
+                                    <stop offset="100%" stop-color="#ff0f0f" />
+                                </linearGradient>
+                            </defs>
+                            <g>
+                                <path
+                                    d="m256 207c47.972 0 87-39.028 87-87s-39.028-87-87-87-87 39.028-87 87 39.028 87 87 87zm0-144c31.43 0 57 25.57 57 57s-25.57 57-57 57-57-25.57-57-57 25.57-57 57-57z" />
+                                <path
+                                    d="m432 207c30.327 0 55-24.673 55-55s-24.673-55-55-55-55 24.673-55 55 24.673 55 55 55zm0-80c13.785 0 25 11.215 25 25s-11.215 25-25 25-25-11.215-25-25 11.215-25 25-25z" />
+                                <path
+                                    d="m444.1 241h-23.2c-27.339 0-50.939 16.152-61.693 39.352-22.141-24.17-53.944-39.352-89.228-39.352h-27.957c-35.284 0-67.087 15.182-89.228 39.352-10.755-23.2-34.355-39.352-61.694-39.352h-23.2c-37.44 0-67.9 30.276-67.9 67.49v109.21c0 16.156 13.194 29.3 29.412 29.3h91.727c1.538 17.9 16.59 32 34.883 32h199.957c18.292 0 33.344-14.1 34.883-32h90.679c16.796 0 30.46-13.61 30.46-30.34v-108.17c-.001-37.214-30.461-67.49-67.901-67.49zm-414.1 67.49c0-20.672 17.002-37.49 37.9-37.49h23.2c20.898 0 37.9 16.818 37.9 37.49v10.271c-10.087 26.264-8 42.004-8 98.239h-91zm331 135.489c0 2.769-2.252 5.021-5.021 5.021h-199.958c-2.769 0-5.021-2.253-5.021-5.021v-81.957c0-50.19 40.832-91.022 91.021-91.022h27.957c50.19 0 91.022 40.832 91.022 91.021zm121-27.319c0 .517 5.592.34-91 .34 0-56.651 2.071-72.018-8-98.239v-10.271c0-20.672 17.002-37.49 37.9-37.49h23.2c20.898 0 37.9 16.818 37.9 37.49z" />
+                                <path
+                                    d="m80 207c30.327 0 55-24.673 55-55s-24.673-55-55-55-55 24.673-55 55 24.673 55 55 55zm0-80c13.785 0 25 11.215 25 25s-11.215 25-25 25-25-11.215-25-25 11.215-25 25-25z" />
+                            </g>
+                        </svg>
+                        <h2 data-clientNumbers="150">150+</h2>
+                        <p>Professionals</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- testemonials section -->
+    <section class="testemonials">
+        <div class="custom_container">
+            <h1 class="carousel_heading">Happy Clients & Feedbacks</h1>
+            <div class="carousel_container">
+                <div class="owl-carousel owl-theme">
+                    <div class="carousel_item">
+                        <div class="carousel_image"><img src="images/testemonial/img1.png" alt=""></div>
+                        <div class="carousel_text">
+                            <h2>George Teump</h2>
+                            <h4>Web designer</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exerci.</p>
+                        </div>
+                    </div>
+                    <div class="carousel_item">
+                        <div class="carousel_image"><img src="images/testemonial/img2.png" alt=""></div>
+                        <div class="carousel_text">
+                            <h2>John Walker</h2>
+                            <h4>Marketing Manager</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exerci.</p>
+                        </div>
+                    </div>
+                    <div class="carousel_item">
+                        <div class="carousel_image"><img src="images/testemonial/img3.png" alt=""></div>
+                        <div class="carousel_text">
+                            <h2>Trina Cotton</h2>
+                            <h4>Graphics designer</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exerci.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- teams section -->
+    <section class="teams">
+        <div class="custom_container">
+            <div class="teams_heading">
+                <img src="images/paws.png" alt="">
+                <h1>Our Team</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna.</p>
+            </div>
+            <div class="teams_content">
+                <div class="teams_item">
+                    <div class="image"><img src="images/teams/img1.png" alt=""></div>
+                    <div class="name">
+                        <div class="inner">
+                            <h3>Stack Fidela</h3>
+                            <p>Veterinary</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="teams_item">
+                    <div class="image"><img src="images/teams/img2.png" alt=""></div>
+                    <div class="name">
+                        <div class="inner">
+                            <h3>Simon Trump</h3>
+                            <p>Pet trainer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="teams_item">
+                    <div class="image"><img src="images/teams/img3.png" alt=""></div>
+                    <div class="name">
+                        <div class="inner">
+                            <h3>Jhon Cena</h3>
+                            <p>Pet specialist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- contacts section -->
+    <section id="contacts" class="contacts">
+        <div class="custom_container">
+            <div class="contact_content">
+                <div class="image"><img src="images/contact_img.png" alt=""></div>
+                <div class="contact_form">
+                    <h2>Free Consultation</h2>
+                    <form autocomplete="off">
+                        <div class="custom_select">
+                            <select name="services" id="services" required>
+                                <option value="" disabled selected>Select Services</option>
+                                <option value="catSitting">Cat Sitting</option>
+                                <option value="dogWalk">Dog Walk</option>
+                                <option value="petSpa">Pet Spa</option>
+                                <option value="petGrooming">Pet Grooming</option>
+                                <option value="petDaycare">Pet Daycare</option>
+                            </select>
+                            <div class="custom_arrow"><i class="fas fa-chevron-down"></i></div>
+                        </div>
+                        <div class="custom_inputs">
+                            <input type="text" name="" id="contact_name" placeholder="Your Name">
+                            <input type="text" name="" id="contact_vehicleNumber" placeholder="Vehicle number">
+                            <div class="custom_date">
+                                <input type="text" name="" id="contact_date" placeholder="Date">
+                                <i class="far fa-calendar-alt"></i>
+                            </div>
+                            <div class="custom_time">
+                                <input type="text" name="" id="contact_time" placeholder="Time">
+                                <i class="far fa-clock"></i>
+
+                            </div>
+                        </div>
+                        <textarea name="message" id="contact_message" placeholder="Message"
+                            spellcheck="false"></textarea>
+                        <button type="submit" class="contact_submit_btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="footer_navigation">
+        <div class="custom_container">
+            <div class="col">
+                <h1>Puppy</h1>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <ul class="footer_social_links_btn">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>Latest News</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit Reprehenderit fuga. Reprehenderit fuga.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit Reprehenderit fuga. Reprehenderit fuga.</p>
+            </div>
+            <div class="col">
+                <h1>Quick Links</h1>
+                <ul class="custom_footer_menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>Questions?</h1>
+                <ul class="questions_list">
+                    <li> <i class="fas fa-map"></i></i><span>203 Fake St. Mountain View, San Francisco,
+                            California, USA</span></li>
+                    <li> <i class="fas fa-phone-alt"></i><span>+2 392 3929 210</span></li>
+                    <li> <i class="fas fa-paper-plane"></i><span>info@yourdomain.com</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="custom_container">
+            <p> Copyright &copy; <span class="copyright_date"></span> All rights reserved | www.careyourpuppy.com
+            </p>
+        </div>
+    </footer>
+
+
+
+    <!-- script files  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
